@@ -1,0 +1,39 @@
+.items {
+
+    background-color: red;
+    position: relative;
+}
+.caption {
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+    width: 90%;
+}
+
+.overlay{
+    position: fixed;
+    background-color: rgba(0, 0, 0, .4);
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display: none !important;
+    
+}
+.overlay-inner{
+    background-image: url("../images/portfolio-1.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+#WClose{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+.show {
+
+    display: flex !important;
+}
